@@ -1,6 +1,6 @@
 const colors = ["#FFFFFF", "#2196F3", "#4CAF50", "#FF9800", "#009688", "#795548"];
-const start = document.querySelector("[data-action='start']");
-const stop = document.querySelector("[data-action='stop']");
+const start = document.querySelector('[data-action="start"]');
+const stop = document.querySelector('[data-action="stop"]');
 const body = document.querySelector("body");
 let stoper;
 const switchColor = () => {
